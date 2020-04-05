@@ -3,13 +3,159 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Practice</title>
   </head>
 
   <body>
-    <audio  autoplay='true'>
-       
-    
+    <code>HELLOW WORLD!</code>
+    <mark contenteditable="true" style="background-color: aqua;"
+      >Esto es un marcado</mark
+    >
+    <s>SSSSSSSS</s>
+    <ins>INS</ins>
+    <del>DEL</del>
+    <strong>HI I'm STRONG</strong>
+    <ins>ETO ES INSERTADO</ins>
+    <hr />
+
+    <form action="#">
+      <fieldset style="display: inline;">
+        <legend>Form</legend>
+        <div>
+          <label for="uss">Usser</label>
+          <input type="text" name="uss" id="" autocomplete="off" />
+        </div>
+        <br />
+        <div>
+          <label for="pass">Pass </label>
+          <input type="text" name="pass" id="" />
+        </div>
+        <br />
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+
+    <br />
+    <hr />
+    <!-- Simple form which will send a GET request -->
+    <form action="" method="get">
+      <label for="GET-name">Name:</label>
+      <input type="submit" value="Save" />
+    </form>
+
+    <!-- Simple form which will send a POST request -->
+    <form action="" method="post">
+      <label for="POST-name">Name:</label>
+      <input id="POST-name" type="text" name="name" />
+      <input type="submit" value="Save" />
+    </form>
+    <!-- Form with fieldset, legend, and label -->
+    <form action="" method="post">
+      <fieldset>
+        <legend>Title</legend>
+        <input type="radio" name="radio" id="radio" size="50px" />
+        <label for="radio">Click me</label>
+      </fieldset>
+    </form>
+    <input
+      type="password"
+      size="10"
+      name=""
+      id=""
+      selectionDirection="backward"
+    />
+    <input id="GET-name" type="text" name="name" />
+
+    <input type="checkbox" name="" id="" />
+    <input type="checkbox" name="" id="" />
+    <input type="checkbox" name="" id="" />
+    <input type="checkbox" name="" id="" />
+    <hr />
+    <input type="color" name="" id="" value="#ff3fff" />
+    <hr />
+
+    <input type="date" />
+    <hr />
+    <input type="datetime-local" name="" id="" />
+    <hr />
+    <input type="email" name="" id="" />
+    <hr />
+    <input type="file" name="" id="" />
+    <hr />
+    <input type="hidden" name="" id="" value="asd" />
+    <input type="image" src="img.png" onclick="alert('Hola')" name="" id="" />
+    <hr />
+    <input type="range" name="" id="" />
+    <input type="reset" name="" id="" value="Reset" />
   </body>
+  <input
+    type="URL"
+    name=""
+    id=""
+    placeholder="http:\\www.input.com"
+    minlength="3"
+  />
+  <hr />
+  <input id="myURL" name="myURL" type="url" list="defaultURLs" />
+
+  <datalist id="defaultURLs">
+    <option value="https://developer.mozilla.org/"> </option>
+    <option value="http://www.google.com/"> </option>
+    <option value="http://www.microsoft.com/"> </option>
+    <option value="https://www.mozilla.org/"> </option>
+    <option value="http://w3.org/"> </option>
+  </datalist>
+  <hr />
+  <input type="text" name="" id="" list="defaultURLs" />
+  <hr />
+  <input id="myURL" name="myURL" type="url" list="defaultURLs" />
+
+  <datalist id="defaultURLs">
+    <option value="https://developer.mozilla.org/" label="MDN Web Docs">
+    </option>
+    <option value="http://www.google.com/" label="Google"> </option>
+    <option value="http://www.microsoft.com/" label="Microsoft"> </option>
+    <option value="https://www.mozilla.org/" label="Mozilla"> </option>
+    <option value="http://w3.org/" label="W3C"> </option>
+  </datalist>
+
+  <hr />
+  <form>
+    <input id="myURL" name="myURL" type="url" required />
+    <button>Submit</button>
+  </form>
+  <hr />
+  <form>
+    <div>
+      <label for="myURL">Enter the problem website address:</label>
+      <input
+        id="myURL"
+        name="myURL"
+        type="url"
+        required
+        pattern=".*\.myco\..*"
+        title="The URL must be in a Myco domain"
+      />
+      <span class="validity"></span>
+    </div>
+    <div>
+      <label for="myComment">What is the problem?</label>
+      <input id="myComment" name="myComment" type="text" required />
+      <span class="validity"></span>
+    </div>
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+  <hr>
+  <p>Enter your name: <input id="name" type="text" size="30"></p>
+  <hr>
+  <input name=x type=range min=100 max=700 step=9.09090909 value=509.090909>  
+  <hr>
+  <abbr title="ASD">AGTD</abbr>
+<br>
+<p>Heat the oven to <meter min="200" max="500"
+    value="350">350 degrees</meter>.</p>
+  <script></script>
   <!-- <script src="app.js"></script> -->
 </html>
