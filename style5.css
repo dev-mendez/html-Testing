@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav-bar {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #1a5f1ab2;
+}
