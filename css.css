@@ -1,0 +1,53 @@
+body {
+  background: #e0a6e033 url("8565584312.jpg") no-repeat;
+  
+  
+
+  height: 200em;
+}   
+h1 {
+  font-family: fantasy;
+}
+
+* {
+  text-align: center;
+}
+
+h1.frst-h1 {
+  color: #3c8d2f;
+}
+h1.scnd-h1 {
+  color: #13c52b;
+}
+
+.center {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: peru;
+}
+
+.large {
+  font-size: larger;
+}
+
+h1,
+h2 {
+  color: rebeccapurple !important;
+}
+
+div {
+  /* opacity: 0.5; */
+}
+
+div.frst-div{
+    border: solid 5px green;
+}
+
+div.scnd-div{
+   border-left: solid 6px #ff660133;
+   background-color: rgb(155, 152, 155);
+}
+
+div.trd-div{
+ border-left: 6px solid red;
+ background-color: rgb(0, 255, 100);
+}
